@@ -1,0 +1,57 @@
+using System;
+using System.Text;
+using System.Linq;
+
+
+class MainClass 
+{
+  static int[] Sort(int [] mas)
+  {
+    int temp;
+    for(int i = 0; i < mas.Length; i++)
+    {
+      for ( int j = i+1; j < mas.Length; j++)
+      {
+        if (mas[i] > mas[j])
+        {
+          temp = mas[i];
+          mas[i] = mas[j];
+          mas[j]= temp;
+        }
+      }
+    }
+    return mas;
+  }
+  public static void Main (string[] args)
+  {
+    //Create
+    int n;
+    n = Convert.ToInt32(Console.ReadLine());
+    int[] Mass = new int[n];
+    //Vvod
+    for(int i = 0;i < Mass.Length; i++)
+    {
+      Console.WriteLine("vvedite element ");
+      Mass[i] = int.Parse(Console.ReadLine());
+    } 
+
+  //Vivod
+  
+  for(int i = 0; i < n; ++i)
+  {
+    Console.WriteLine("Elem " + i + ": " + Mass[i]);
+    
+  }
+
+  // Bubble
+ 
+  Sort(Mass);
+  Console.WriteLine("====");
+  for(int i = 0; i < n; ++i)
+  {
+    Console.WriteLine("Elem " + i + ": " + Mass[i]);
+   
+  }
+  }
+  
+}
