@@ -1,0 +1,7 @@
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\bin\Debug\Eremin_CH3.exe.config
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\bin\Debug\Eremin_CH3.exe
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\bin\Debug\Eremin_CH3.pdb
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\obj\Debug\Eremin_CH3.csprojAssemblyReference.cache
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\obj\Debug\Eremin_CH3.csproj.CoreCompileInputs.cache
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\obj\Debug\Eremin_CH3.exe
+C:\Users\7777\source\repos\Eremin_CH3\Eremin_CH3\obj\Debug\Eremin_CH3.pdb
