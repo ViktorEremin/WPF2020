@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eremin_CH5", "Eremin_CH5\Eremin_CH5.csproj", "{BFBE3403-6EF2-459E-B55C-2DB35003B865}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFBE3403-6EF2-459E-B55C-2DB35003B865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBE3403-6EF2-459E-B55C-2DB35003B865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBE3403-6EF2-459E-B55C-2DB35003B865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBE3403-6EF2-459E-B55C-2DB35003B865}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E38A40E-0785-4150-A839-A5E51B36D4AD}
+	EndGlobalSection
+EndGlobal
