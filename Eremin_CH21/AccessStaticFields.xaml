@@ -1,0 +1,17 @@
+﻿
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:src="clr-namespace:Petzold.AccessStaticFields"
+        x:Class="Petzold.AccessStaticFields.AccessStaticFields"
+        Title="TEXT"
+        SizeToContent="WidthAndHeight">
+    <TextBlock  Background="{x:Static src:Constants.brush}" 
+                FontSize="{x:Static src:Constants.FontSize}"
+                TextAlignment="Center">
+        <TextBlock.FontFamily>
+            <x:Static Member="src:Constants.fntfam" /> 
+        </TextBlock.FontFamily>
+            SOME text<LineBreak />for<LineBreak />lesson
+        </TextBlock>
+</Window>
+

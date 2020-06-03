@@ -1,0 +1,46 @@
+﻿
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:src="clr-namespace:Petzold.DumpControlTemplate" 
+        x:Class="Petzold.DumpControlTemplate.DumpControlTemplate"
+        Title="Дамп контроль">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <src:ControlMenuItem MenuItem.Click="ControlItemOnClick"/>
+            <MenuItem Header="Дамп" SubmenuOpened="DumpOnOpened" RenderTransformOrigin="0.5,0.5">
+                <MenuItem.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="0"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </MenuItem.RenderTransform>
+                <MenuItem Header="Template property (type ControlTemplate)"
+                          Name="itemTemplate" 
+                          Click="DumpTemplateOnClick" />
+
+                <MenuItem Header="ItemsPanel property (type ItemsPanelTemplate)"
+                          Name="itemItemsPanel" 
+                          Click="DumpItemsPanelOnClick" />
+            </MenuItem>
+        </Menu>
+        <Grid Name="grid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="4*" />
+            </Grid.RowDefinitions>
+            <GridSplitter Grid.Row="1" Height="6" 
+                          HorizontalAlignment="Stretch" 
+                          VerticalAlignment="Center" />
+            <TextBox Grid.Row="2" 
+                     Name="txtbox" 
+                     FontFamily="Lucida Console"
+                     AcceptsReturn="True" 
+                     HorizontalScrollBarVisibility="Auto"
+                     VerticalScrollBarVisibility="Auto" />
+        </Grid>
+    </DockPanel>
+</Window>
+

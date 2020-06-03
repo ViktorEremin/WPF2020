@@ -1,0 +1,7 @@
+C:\Users\7777\source\repos\Chapter8\Chapter8\bin\Debug\Chapter8.exe.config
+C:\Users\7777\source\repos\Chapter8\Chapter8\bin\Debug\Chapter8.exe
+C:\Users\7777\source\repos\Chapter8\Chapter8\bin\Debug\Chapter8.pdb
+C:\Users\7777\source\repos\Chapter8\Chapter8\obj\Debug\Chapter8.csprojAssemblyReference.cache
+C:\Users\7777\source\repos\Chapter8\Chapter8\obj\Debug\Chapter8.csproj.CoreCompileInputs.cache
+C:\Users\7777\source\repos\Chapter8\Chapter8\obj\Debug\Chapter8.exe
+C:\Users\7777\source\repos\Chapter8\Chapter8\obj\Debug\Chapter8.pdb

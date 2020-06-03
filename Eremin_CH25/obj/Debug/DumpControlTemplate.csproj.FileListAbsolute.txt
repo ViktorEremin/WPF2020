@@ -1,0 +1,12 @@
+C:\Users\7777\Desktop\глава25\bin\Debug\DumpControlTemplate.exe
+C:\Users\7777\Desktop\глава25\bin\Debug\DumpControlTemplate.pdb
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.csprojAssemblyReference.cache
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.g.cs
+C:\Users\7777\Desktop\глава25\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate_MarkupCompile.cache
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate_MarkupCompile.lref
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.baml
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.g.resources
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.csproj.CoreCompileInputs.cache
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.exe
+C:\Users\7777\Desktop\глава25\obj\Debug\DumpControlTemplate.pdb
